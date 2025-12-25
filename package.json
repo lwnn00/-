@@ -1,0 +1,19 @@
+{
+  "name": "football-handicap-backend",
+  "version": "1.0.0",
+  "description": "足球让球/大小盘口记录软件后端",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod",
+    "setup": "node scripts/setup-admin.js"
+  },
+  "dependencies": {
+    "@vercel/node": "^3.0.0",
+    "fs-extra": "^11.1.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
